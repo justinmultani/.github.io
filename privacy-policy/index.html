@@ -38,8 +38,10 @@
         <nav class="hidden md:flex space-x-5">
           <a href="/" class="text-base font-medium text-gray-700 hover:text-gray-900">Home</a>
           <a href="/privacy-policy" class="text-base font-medium text-gray-700 hover:text-gray-900">Privacy Policy</a>
-          <a href="/terms-and-conditions" class="text-base font-medium text-gray-700 hover:text-gray-900">Terms &amp; Conditions</a>
-          <a href="#contact-us" class="flex justify-center mx-auto py-2 px-8 border border-transparent text-white bg-[#013220] rounded-full shadow-sm font-bold text-base font-medium hover:bg-[#1B5E20] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1B5E20]">
+          <a href="/terms-and-conditions" class="text-base font-medium text-gray-700 hover:text-gray-900">Terms &amp;
+            Conditions</a>
+          <a href="#contact-us"
+            class="flex justify-center mx-auto py-2 px-8 border border-transparent text-white bg-[#013220] rounded-full shadow-sm font-bold text-base font-medium hover:bg-[#1B5E20] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1B5E20]">
             Contact Us
           </a>
         </nav>
@@ -49,31 +51,81 @@
 
   <!-- Main Content -->
   <main class="flex-grow">
+    <!-- Hero Section with Gradient Background and Logo Box -->
+    <section class="relative bg-gray-900 isolate min-h-[30vh]">
+      <!-- SVG Background Pattern -->
+      <svg
+        class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+        aria-hidden="true">
+        <defs>
+          <pattern id="pattern-lines" width="80" height="60" x="50%" y="-1" patternUnits="userSpaceOnUse">
+            <path d="M.5 200V.5H200" fill="none"></path>
+          </pattern>
+        </defs>
+        <!-- Optional extra texture -->
+        <rect width="100%" height="100%" stroke-width="0" fill="url(#pattern-lines)"></rect>
+      </svg>
+      <!-- Gradient Overlay (starting at the very top) -->
+      <svg viewBox="0 0 1108 632" aria-hidden="true"
+        class="absolute top-0 left-[calc(50%-4rem)] -z-10 w-[69.25rem] max-w-none transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
+        <defs>
+          <linearGradient id="green-black-gradient" x1="1220.59" x2="-85.053" y1="432.766" y2="638.714"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#000000"></stop>
+            <stop offset="1" stop-color="#2ECC71"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#green-black-gradient)" fill-opacity=".2"
+          d="M235.233 402.609 57.541 321.573.83 631.05l234.404-228.441 320.018 145.945c-65.036-115.261-134.286-322.756 109.01-230.655C968.382 433.026 1031 651.247 1092.23 459.36c48.98-153.51-34.51-321.107-82.37-385.717L810.952 324.222 648.261.088 235.233 402.609Z">
+        </path>
+      </svg>
+      <!-- Hero Content -->
+      <div class="relative max-w-7xl mx-auto px-4 py-10 sm:py-0 lg:py-10 text-center">
+        <!-- Flex container with logo as background (wider to center the text) -->
+        <div class="flex items-center justify-center bg-cover bg-center mx-auto rounded-lg shadow-lg"
+          style="width: 300px; height: 100px;">
+          <h1 class="text-6xl font-extrabold text-white">
+            Privacy Policy
+          </h1>
+        </div>
+      </div>
+    </section>
     <section class="py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 class="text-4xl font-extrabold text-gray-900 mb-8">Privacy Policy</h1>
-        <p class="text-lg text-gray-600 mb-6">Last updated: March 17, 2025</p>
-        
         <p class="text-gray-600 mb-6">
-          This privacy policy applies to the processing activities of Cumulus9 (as defined below). As part of our day-to-day business we need to collect personal information from our customers and potential customers to ensure that we can meet their needs and provide them with information about our services. Your privacy is important to us and it is our policy to respect the confidentiality of information and the privacy of individuals.
+          This privacy policy applies to the processing activities of Cumulus9 (as defined below). As part of our
+          day-to-day business we need to collect personal information from our customers and potential customers to
+          ensure that we can meet their needs and provide them with information about our services. Your privacy is
+          important to us and it is our policy to respect the confidentiality of information and the privacy of
+          individuals.
         </p>
-        
+
         <p class="text-gray-600 mb-6">
-          This policy outlines how we manage your personal information supplied to us by you or a third party in connection with our provision of services to you or which we collect from your use of our services and/or website(s). It also details your rights in respect of our processing of your personal information. Our privacy policy will be reviewed from time to time to take account of new obligations and technology, changes to our operations and practices and to make sure it remains appropriate to the changing environment.
+          This policy outlines how we manage your personal information supplied to us by you or a third party in
+          connection with our provision of services to you or which we collect from your use of our services and/or
+          website(s). It also details your rights in respect of our processing of your personal information. Our privacy
+          policy will be reviewed from time to time to take account of new obligations and technology, changes to our
+          operations and practices and to make sure it remains appropriate to the changing environment.
         </p>
-        
+
         <p class="text-gray-600 mb-6">
           Any personal information we hold will be governed by our most current privacy notice.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Who we are?</h2>
         <p class="text-gray-600 mb-6">
-          Cumulus9 Limited (“Cumulus9”) provides quality assurance testing services in respect of regulatory reporting, including but not limited to reference data testing, accuracy testing and regulatory reconciliations to international clients and is the data controller of your personal information in relation to those services.
+          Cumulus9 Limited (“Cumulus9”) provides quality assurance testing services in respect of regulatory reporting,
+          including but not limited to reference data testing, accuracy testing and regulatory reconciliations to
+          international clients and is the data controller of your personal information in relation to those services.
         </p>
         <p class="text-gray-600 mb-6">
-          Please note that if you are a Cumulus9 employee, your personal information will be used in connection with your employment contract. Any reference to ‘us’, ‘our’, ‘we’ or ‘Cumulus9’ in this privacy notice is a reference to Cumulus9. Similarly, any reference to ‘you’, ‘your’, ‘yours’ or ‘yourself’ in this privacy notice is a reference to any of our customers and potential customers as the context requires unless otherwise stated.
+          Please note that if you are a Cumulus9 employee, your personal information will be used in connection with
+          your employment contract. Any reference to ‘us’, ‘our’, ‘we’ or ‘Cumulus9’ in this privacy notice is a
+          reference to Cumulus9. Similarly, any reference to ‘you’, ‘your’, ‘yours’ or ‘yourself’ in this privacy notice
+          is a reference to any of our customers and potential customers as the context requires unless otherwise
+          stated.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">What kind of personal information do we collect?</h2>
         <p class="text-gray-600 mb-6">
           If you are an actual or potential customer, we may collect the following types of information about you:
@@ -85,93 +137,141 @@
           <li>any other similar information</li>
         </ul>
         <p class="text-gray-600 mb-6">
-          We obtain this information in a number of ways through your use of our services or other dealings with us including through the Cumulus9 website, the customer on-boarding process, marketing sign up forms, subscribing to blogs and from information provided in the course of ongoing customer service correspondence. We may also obtain personal information about you through your use of our website or through the use of cookies on our website and, in particular by recording which pages you look at on our website.
+          We obtain this information in a number of ways through your use of our services or other dealings with us
+          including through the Cumulus9 website, the customer on-boarding process, marketing sign up forms, subscribing
+          to blogs and from information provided in the course of ongoing customer service correspondence. We may also
+          obtain personal information about you through your use of our website or through the use of cookies on our
+          website and, in particular by recording which pages you look at on our website.
         </p>
         <p class="text-gray-600 mb-6">
-          We may ask for other personal information voluntarily from time to time (for example, through market research or surveys). We may record any communications—electronic, by telephone, in person or otherwise—that we have with you in relation to the services we provide and our relationship with you. These recordings will be our sole property and will constitute evidence of the communications between us. Such telephone conversations may be recorded without the use of a warning tone or any other further notice. Further, if you visit our offices or premises, we may have CCTV which will record your image.
+          We may ask for other personal information voluntarily from time to time (for example, through market research
+          or surveys). We may record any communications—electronic, by telephone, in person or otherwise—that we have
+          with you in relation to the services we provide and our relationship with you. These recordings will be our
+          sole property and will constitute evidence of the communications between us. Such telephone conversations may
+          be recorded without the use of a warning tone or any other further notice. Further, if you visit our offices
+          or premises, we may have CCTV which will record your image.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Who may we disclose personal information to?</h2>
         <p class="text-gray-600 mb-6">
-          As part of using your personal information for the purposes set out above, we may disclose your information to:
+          As part of using your personal information for the purposes set out above, we may disclose your information
+          to:
         </p>
         <ul class="list-disc pl-6 mb-6 text-gray-600">
           <li>other companies in the Cumulus9 Group</li>
-          <li>service providers and specialist advisers who have been contracted to provide us with administrative, IT, financial, regulatory, compliance, insurance, research or other services</li>
-          <li>courts, tribunals and applicable regulatory authorities as agreed or authorised by law or our agreement with you</li>
+          <li>service providers and specialist advisers who have been contracted to provide us with administrative, IT,
+            financial, regulatory, compliance, insurance, research or other services</li>
+          <li>courts, tribunals and applicable regulatory authorities as agreed or authorised by law or our agreement
+            with you</li>
           <li>anyone authorised by you</li>
         </ul>
         <p class="text-gray-600 mb-6">
-          Generally, we require that third party organisations who handle or obtain personal information acknowledge the confidentiality of this information, undertake to respect any individual’s right to privacy and comply with all relevant data protection laws and this privacy notice.
+          Generally, we require that third party organisations who handle or obtain personal information acknowledge the
+          confidentiality of this information, undertake to respect any individual’s right to privacy and comply with
+          all relevant data protection laws and this privacy notice.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">How do we obtain your consent?</h2>
         <p class="text-gray-600 mb-6">
-          Where our use of your personal information requires your consent, such consent will be provided in accordance with the applicable terms and conditions of use on our website or any other contract we may have entered into with you or as set out in our communication with you from time to time. If we rely on your consent as our legal basis for processing your personal information, you have the right to withdraw that consent at any time by contacting us using the contact details set out in this privacy notice.
+          Where our use of your personal information requires your consent, such consent will be provided in accordance
+          with the applicable terms and conditions of use on our website or any other contract we may have entered into
+          with you or as set out in our communication with you from time to time. If we rely on your consent as our
+          legal basis for processing your personal information, you have the right to withdraw that consent at any time
+          by contacting us using the contact details set out in this privacy notice.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Management of personal information</h2>
         <p class="text-gray-600 mb-6">
-          We always take appropriate technical and organisational measures to ensure that your information is secure. In particular, we train our employees who handle personal information to respect the confidentiality of customer information and the privacy of individuals. We regard breaches of your privacy very seriously and will impose appropriate penalties, including dismissal where necessary.
+          We always take appropriate technical and organisational measures to ensure that your information is secure. In
+          particular, we train our employees who handle personal information to respect the confidentiality of customer
+          information and the privacy of individuals. We regard breaches of your privacy very seriously and will impose
+          appropriate penalties, including dismissal where necessary.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">How do we store personal information and for how long?</h2>
         <p class="text-gray-600 mb-6">
-          Safeguarding the privacy of your information is important to us, whether you interact with us personally, by phone, by mail, over the internet or any other electronic medium. We hold personal information in a combination of secure computer storage facilities and paper-based files and other records, and take steps to protect the personal information we hold from misuse, loss, unauthorised access, modification or disclosure. When we consider that personal information is no longer needed, we will remove any details that will identify you or we will securely destroy the records. However, we may need to maintain records for a significant period of time.
+          Safeguarding the privacy of your information is important to us, whether you interact with us personally, by
+          phone, by mail, over the internet or any other electronic medium. We hold personal information in a
+          combination of secure computer storage facilities and paper-based files and other records, and take steps to
+          protect the personal information we hold from misuse, loss, unauthorised access, modification or disclosure.
+          When we consider that personal information is no longer needed, we will remove any details that will identify
+          you or we will securely destroy the records. However, we may need to maintain records for a significant period
+          of time.
         </p>
         <p class="text-gray-600 mb-6">
-          If we hold any personal information in the form of a deed, we will hold this deed in its complete form for a period of 12 years after our business relationship with you has ended. If we hold any personal information in the form of a recorded communication, by telephone, electronic, in person or otherwise, this information will be held in line with local regulatory requirements which will either be 5 years or 10 years after our business relationship with you has ended. Where you have opted out of receiving marketing communications we may hold your details on our suppression list so that we know you do not want to receive these communications but we will not send you marketing communications.
+          If we hold any personal information in the form of a deed, we will hold this deed in its complete form for a
+          period of 12 years after our business relationship with you has ended. If we hold any personal information in
+          the form of a recorded communication, by telephone, electronic, in person or otherwise, this information will
+          be held in line with local regulatory requirements which will either be 5 years or 10 years after our business
+          relationship with you has ended. Where you have opted out of receiving marketing communications we may hold
+          your details on our suppression list so that we know you do not want to receive these communications but we
+          will not send you marketing communications.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">How do we use the personal information?</h2>
         <p class="text-gray-600 mb-6">
           We may use personal information for the following purposes:
         </p>
         <ul class="list-disc pl-6 mb-6 text-gray-600">
           <li>
-            <strong>To verify your identity and manage your account:</strong> We use your personal information to verify your identity, set up your account, and manage our relationship with you, which may include third parties carrying out credit or identity checks on our behalf.
+            <strong>To verify your identity and manage your account:</strong> We use your personal information to verify
+            your identity, set up your account, and manage our relationship with you, which may include third parties
+            carrying out credit or identity checks on our behalf.
           </li>
           <li>
-            <strong>To provide products and services:</strong> Once you become a customer or subscribe to our website or blogs, we will use your personal information to provide our services and to review your ongoing needs.
+            <strong>To provide products and services:</strong> Once you become a customer or subscribe to our website or
+            blogs, we will use your personal information to provide our services and to review your ongoing needs.
           </li>
           <li>
-            <strong>To improve our services:</strong> We may use your personal information, including feedback collected through surveys or customer interactions, to improve our products, services, and overall user experience.
+            <strong>To improve our services:</strong> We may use your personal information, including feedback collected
+            through surveys or customer interactions, to improve our products, services, and overall user experience.
           </li>
           <li>
-            <strong>To investigate or settle enquiries or disputes:</strong> Your information may be used to investigate and resolve any issues or disputes efficiently.
+            <strong>To investigate or settle enquiries or disputes:</strong> Your information may be used to investigate
+            and resolve any issues or disputes efficiently.
           </li>
           <li>
-            <strong>To comply with legal obligations:</strong> We may use your personal information to comply with applicable laws, court orders, or regulatory requirements.
+            <strong>To comply with legal obligations:</strong> We may use your personal information to comply with
+            applicable laws, court orders, or regulatory requirements.
           </li>
           <li>
-            <strong>For data analysis:</strong> We may use anonymised data from your personal information to analyse trends and improve our services.
+            <strong>For data analysis:</strong> We may use anonymised data from your personal information to analyse
+            trends and improve our services.
           </li>
           <li>
-            <strong>For marketing purposes:</strong> With your consent, we may use your personal information to send you marketing communications about our latest products and services.
+            <strong>For marketing purposes:</strong> With your consent, we may use your personal information to send you
+            marketing communications about our latest products and services.
           </li>
           <li>
-            <strong>For internal business purposes and record keeping:</strong> This includes maintaining records for compliance with legal obligations.
+            <strong>For internal business purposes and record keeping:</strong> This includes maintaining records for
+            compliance with legal obligations.
           </li>
           <li>
-            <strong>In the event of a corporate restructuring:</strong> Your personal information may be disclosed as part of a corporate restructure or acquisition.
+            <strong>In the event of a corporate restructuring:</strong> Your personal information may be disclosed as
+            part of a corporate restructure or acquisition.
           </li>
         </ul>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Security</h2>
         <p class="text-gray-600 mb-6">
-          We take appropriate technical and organisational measures to ensure that your personal information is secure. This includes training our employees and implementing security protocols to prevent unauthorised access.
+          We take appropriate technical and organisational measures to ensure that your personal information is secure.
+          This includes training our employees and implementing security protocols to prevent unauthorised access.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">What if you have a complaint?</h2>
         <p class="text-gray-600 mb-6">
-          If you have a concern about any aspect of our privacy practices, you can make a complaint. We will address your complaint promptly. If you are not satisfied with our response, you have the right to lodge a complaint with the Information Commissioner’s Office (ICO). For details, visit <a href="https://ico.org.uk/concerns/" class="underline text-blue-600 hover:text-blue-800">https://ico.org.uk/concerns/</a> or call 0303 123 1113.
+          If you have a concern about any aspect of our privacy practices, you can make a complaint. We will address
+          your complaint promptly. If you are not satisfied with our response, you have the right to lodge a complaint
+          with the Information Commissioner’s Office (ICO). For details, visit <a href="https://ico.org.uk/concerns/"
+            class="underline text-blue-600 hover:text-blue-800">https://ico.org.uk/concerns/</a> or call 0303 123 1113.
         </p>
-        
+
         <h2 class="text-2xl font-bold text-gray-900 mb-4">We may update this Privacy Policy</h2>
         <p class="text-gray-600 mb-6">
-          We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or technology. The updated version will be posted on our website with an updated revision date.
+          We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements,
+          or technology. The updated version will be posted on our website with an updated revision date.
         </p>
-        
+
         <!-- Contact Us Section -->
         <section id="contact-us" class="py-16">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -208,7 +308,8 @@
           <div class="-my-1 flex justify-center gap-x-6">
             <a class="text-sm font-semibold leading-6 text-white" href="/">Home</a>
             <a class="text-sm font-semibold leading-6 text-white" href="/privacy-policy">Privacy Policy</a>
-            <a class="text-sm font-semibold leading-6 text-white" href="/terms-and-conditions">Terms &amp; Conditions</a>
+            <a class="text-sm font-semibold leading-6 text-white" href="/terms-and-conditions">Terms &amp;
+              Conditions</a>
           </div>
         </nav>
       </div>
@@ -228,9 +329,11 @@
   </footer>
 
   <!-- Cookie Consent Banner -->
-  <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex flex-col sm:flex-row items-center justify-between z-50">
+  <div id="cookie-banner"
+    class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex flex-col sm:flex-row items-center justify-between z-50">
     <p class="mb-2 sm:mb-0 text-center sm:text-left">
-      This website uses essential cookies to ensure its proper operation and to help us deliver the best experience possible. By using our services, you agree to our use of cookies.
+      This website uses essential cookies to ensure its proper operation and to help us deliver the best experience
+      possible. By using our services, you agree to our use of cookies.
       <a href="/cookie-policy" class="underline hover:text-gray-300 ml-1">Learn more</a>
     </p>
     <button id="cookie-dismiss" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
