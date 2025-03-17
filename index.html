@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth bg-white antialiased">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DerivQuant Consultancy | Remote Talent, Local Management</title>
+  <meta name="description"
+    content="DerivQuant Consultancy provides carefully sourced remote-based technology consultants — combining offshore talent from India with dedicated UK-based management — to deliver scalable, efficient solutions." />
+  <!-- Load Tailwind CSS from CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Watermark that scrolls with the page */
+    body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('logo.webp') center center / 30% auto no-repeat;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: -1;
+}
+
+  </style>
+  
+</head>
+
+<body class="flex flex-col min-h-full">
+  <!-- Sticky Header with Logo at Top Left -->
+  <header class="bg-#2ECC71 bg-opacity-90 backdrop-blur-sm sticky top-0 z-20 shadow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <!-- Logo in top-left corner -->
+        <div class="flex-shrink-0">
+          <img class="h-20" src="logo.webp" alt="DerivQuant Logo" />
+        </div>
+        <!-- Navigation -->
+        <nav class="hidden md:flex space-x-5">
+          <a href="#" class="text-base font-medium text-gray-700 hover:text-gray-900">Home</a>
+          <a href="#services" class="text-base font-medium text-gray-700 hover:text-gray-900">Services</a>
+          <a href="#how-it-works" class="text-base font-medium text-gray-700 hover:text-gray-900">How It Works</a>
+          <a href="#contact"
+            class="flex justify-center mx-auto py-2 px-8 border border-transparent text-white bg-[#013220] rounded-full shadow-sm font-bold text-base font-medium hover:bg-[#1B5E20] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1B5E20]">
+            Contact Us
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Gradient Background and Logo Box -->
+  <section class="relative bg-gray-900 isolate min-h-[30vh]">
+    <!-- SVG Background Pattern -->
+    <svg
+      class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+      aria-hidden="true">
+      <defs>
+        <pattern id="pattern-lines" width="80" height="60" x="50%" y="-1" patternUnits="userSpaceOnUse">
+          <path d="M.5 200V.5H200" fill="none"></path>
+        </pattern>
+      </defs>
+      <!-- Optional extra texture -->
+      <rect width="100%" height="100%" stroke-width="0" fill="url(#pattern-lines)"></rect>
+    </svg>
+    <!-- Gradient Overlay (starting at the very top) -->
+    <svg viewBox="0 0 1108 632" aria-hidden="true"
+      class="absolute top-0 left-[calc(50%-4rem)] -z-10 w-[69.25rem] max-w-none transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
+      <defs>
+        <linearGradient id="green-black-gradient" x1="1220.59" x2="-85.053" y1="432.766" y2="638.714"
+          gradientUnits="userSpaceOnUse">
+          <stop stop-color="#000000"></stop>
+          <stop offset="1" stop-color="#2ECC71"></stop>
+        </linearGradient>
+      </defs>
+      <path fill="url(#green-black-gradient)" fill-opacity=".2"
+        d="M235.233 402.609 57.541 321.573.83 631.05l234.404-228.441 320.018 145.945c-65.036-115.261-134.286-322.756 109.01-230.655C968.382 433.026 1031 651.247 1092.23 459.36c48.98-153.51-34.51-321.107-82.37-385.717L810.952 324.222 648.261.088 235.233 402.609Z">
+      </path>
+    </svg>
+    <!-- Hero Content -->
+    <div class="relative max-w-7xl mx-auto px-4 py-10 sm:py-0 lg:py-10 text-center">
+      <!-- Flex container with logo as background (wider to center the text) -->
+      <div class="flex items-center justify-center bg-cover bg-center mx-auto rounded-lg shadow-lg"
+        style="width: 300px; height: 100px;">
+        <h1 class="text-6xl font-extrabold text-white">
+          DerivQuant Consultancy
+        </h1>
+      </div>
+      <p class="mt-6 text-3xl text-gray-300">
+        Remote Talent, Local Management
+      </p>
+      <div class="mt-10">
+        <a href="#services"
+          class="inline-block bg-azure-500 px-8 py-3 border border-transparent text-base font-bold rounded-full text-white hover:bg-azure-400">
+          Discover Our Services
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    <!-- Core Service Offering -->
+    <section id="services" class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-gray-900">Core Service Offering</h2>
+        <p class="mt-4 text-lg text-gray-600">
+          DerivQuant Consultancy empowers businesses across the UK and beyond by seamlessly connecting them with
+          top-tier remote tech talent — including Software Developers, Python Engineers, Data Scientists, AI/ML
+          Specialists, and Quantitative Analysts. Enhancing your experience, our dedicated UK-based account manager
+          serves as your personal liaison, ensuring clear communication and a smooth, tailored collaboration between you
+          and our experts.
+        </p>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-8 items-center">
+          <div>
+            <h3 class="text-xl font-bold text-gray-900">Skilled Consultants</h3>
+            <ul class="mt-4 space-y-2 text-gray-600">
+              <li>Software Developers (Full-stack, Front-end, Back-end)</li>
+              <li>Python & Quantitative Engineers</li>
+              <li>Data Scientists and Data Engineers</li>
+              <li>AI & Machine Learning Specialists</li>
+            </ul>
+          </div>
+          <!-- Divider Column: visible on medium screens and up -->
+          <div class="hidden md:flex justify-center items-center">
+            <div class="w-px h-48 bg-gradient-to-b from-transparent via-black to-transparent"></div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-900">Fully Managed, Quality-Assured</h3>
+            <p class="mt-4 text-gray-600">
+              Dedicated UK-based account management ensures clear communication, quality control, and timely delivery.
+            </p>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="relative isolate overflow-hidden bg-slate-900 py-32">
+      <!-- Green Gradient Background (same as hero) -->
+      <svg viewBox="0 0 1108 632" aria-hidden="true"
+        class="absolute top-0 left-[calc(50%-4rem)] -z-10 w-[69.25rem] max-w-none transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
+        <defs>
+          <linearGradient id="green-black-gradient-how" x1="1220.59" x2="-85.053" y1="432.766" y2="638.714"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#000000"></stop>
+            <stop offset="1" stop-color="#2ECC71"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#green-black-gradient-how)" fill-opacity=".2"
+          d="M235.233 402.609 57.541 321.573.83 631.05l234.404-228.441 320.018 145.945c-65.036-115.261-134.286-322.756 109.01-230.655C968.382 433.026 1031 651.247 1092.23 459.36c48.98-153.51-34.51-321.107-82.37-385.717L810.952 324.222 648.261.088 235.233 402.609Z">
+        </path>
+      </svg>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-white">How It Works</h2>
+        <ol class="mt-8 space-y-4 text-gray-600">
+          <li>
+            <span class="font-bold text-white">Identify Requirements:</span> Your dedicated UK-based manager clearly
+            understands your requirements, timelines, and budgets.
+          </li>
+          <li>
+            <span class="font-bold text-white">Source & Screen Talent:</span> Through strategic Indian partnerships, we
+            rapidly identify highly skilled candidates who match your technical and cultural needs.
+          </li>
+          <li>
+            <span class="font-bold text-white">Seamless Onboarding & Delivery:</span> Our UK manager coordinates with
+            remote consultants, ensuring smooth integration with your existing teams.
+          </li>
+        </ol>
+      </div>
+      <br>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-white">Competitive Advantages</h2>
+        <ul class="mt-8 space-y-4 text-gray-600">
+          <li>
+            <span class="font-bold text-white">Cost Efficiency:</span> Access high-quality talent at competitive
+            rates.
+          </li>
+          <li>
+            <span class="font-bold text-white">Quality & Reliability:</span> UK-based account management guarantees
+            effective oversight.
+          </li>
+          <li>
+            <span class="font-bold text-white">Scalability:</span> Rapidly expand or reduce your remote workforce
+            based on project demands.
+          </li>
+          <li>
+            <span class="font-bold text-white">Flexibility:</span> Engage consultants on project-based, daily-rate,
+            or long-term arrangements.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 ">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-gray-900">Contact Us</h2>
+        <p class="mt-4 text-lg text-gray-600">
+          Get in touch with us to learn more about how we can help your business succeed.
+        </p>
+        <form class="mt-8 space-y-6" action="#" method="POST">
+          <div class="rounded-md shadow-sm -space-y-px">
+            <div>
+              <label for="name" class="sr-only">Name</label>
+              <input id="name" name="name" type="text" required
+                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
+                placeholder="Name" />
+            </div>
+            <div>
+              <label for="email" class="sr-only">Email address</label>
+              <input id="email" name="email" type="email" required
+                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
+                placeholder="Email address" />
+            </div>
+            <div>
+              <label for="message" class="sr-only">Message</label>
+              <textarea id="message" name="message" rows="4" required
+                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
+                placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div>
+            <button type="submit"
+              class="flex justify-center mx-auto py-2 px-20 border text-gray-600 rounded-full shadow-sm font-bold text-base font-medium hover:bg-azure-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-azure-500">
+              Send Message
+            </button>
+
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <!-- Top Section: Logo & Navigation -->
+      <div class="py-16">
+        <a aria-label="Home" href="/">
+          <!-- Replace with your logo if needed -->
+          <img src="logo.webp" alt="DerivQuant Logo" class="mx-auto h-28 w-auto" />
+        </a>
+        <br>
+        <div>
+          <ul class="mt-6 flex flex-col items-center justify-center gap-y-2 font-semibold text-white">
+            <li>E: admin@derivquantconsultancy.com</li>
+            <li>T: +44 (0) 7411 558 648</li>
+          </ul>
+        </div>
+        <nav class="mt-10 text-sm" aria-label="quick links">
+          <div class="-my-1 flex justify-center gap-x-6">
+            <a class="text-sm font-semibold leading-6 text-white" href="#services">Services</a>
+            <a class="text-sm font-semibold leading-6 text-white" href="#how-it-works">How It Works</a>
+            <a class="text-sm font-semibold leading-6 text-white" href="#advantages">Advantages</a>
+            <a class="text-sm font-semibold leading-6 text-white" href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Horizontal Gradient Divider -->
+      <div class="mb-4">
+        <div class="w-full h-px bg-gradient-to-r from-transparent via-black to-transparent"></div>
+      </div>
+      <!-- Bottom Section: Legal Links & Contact Email -->
+      <div class="flex flex-col items-center py-10 sm:flex-row-reverse sm:justify-between">
+        <p class="text-sm text-slate-50 sm:mt-0">
+          <a class="ml-1 font-semibold" href="/privacy-policy">Privacy Policy /</a>
+          <a class="ml-1 font-semibold" href="/terms-and-conditions">Terms and Conditions</a>
+        </p>
+        <p class="mt-6 text-sm text-slate-50 sm:mt-0">
+          © 2025 DerivQuant Consultancy. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
