@@ -34,7 +34,7 @@
       <div class="flex justify-between items-center py-4">
         <!-- Logo in top-left corner -->
         <div class="flex-shrink-0">
-          <img class="h-20" src="logo.webp" alt="DerivQuant Logo" />
+          <img class="h-20 w-auto" src="logo.webp" alt="DerivQuant Logo" />
         </div>
         <!-- Navigation -->
         <nav class="hidden md:flex space-x-5">
@@ -42,7 +42,7 @@
           <a href="#services" class="text-base font-medium text-gray-700 hover:text-gray-900">Services</a>
           <a href="#how-it-works" class="text-base font-medium text-gray-700 hover:text-gray-900">How It Works</a>
           <a href="#contactForm"
-            class="flex justify-center mx-autox px-8 border border-transparent text-white bg-[#013220] rounded-full shadow-sm font-bold text-base font-medium hover:bg-[#1B5E20] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1B5E20]">
+            class="flex justify-center mx-auto px-8 border border-transparent text-white bg-[#013220] rounded-full shadow-sm font-bold text-base font-medium hover:bg-[#1B5E20] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1B5E20]">
             Contact Us
           </a>
         </nav>
@@ -53,23 +53,19 @@
   <!-- Hero Section with Gradient Background and Logo Box -->
   <section class="relative bg-gray-900 isolate min-h-[30vh]">
     <!-- SVG Background Pattern -->
-    <svg
-      class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
-      aria-hidden="true">
+    <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
       <defs>
         <pattern id="pattern-lines" width="80" height="60" x="50%" y="-1" patternUnits="userSpaceOnUse">
           <path d="M.5 200V.5H200" fill="none"></path>
         </pattern>
       </defs>
-      <!-- Optional extra texture -->
       <rect width="100%" height="100%" stroke-width="0" fill="url(#pattern-lines)"></rect>
     </svg>
     <!-- Gradient Overlay (starting at the very top) -->
     <svg viewBox="0 0 1108 632" aria-hidden="true"
       class="absolute top-0 left-[calc(50%-4rem)] -z-10 w-[69.25rem] max-w-none transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
       <defs>
-        <linearGradient id="green-black-gradient" x1="1220.59" x2="-85.053" y1="432.766" y2="638.714"
-          gradientUnits="userSpaceOnUse">
+        <linearGradient id="green-black-gradient" x1="1220.59" x2="-85.053" y1="432.766" y2="638.714" gradientUnits="userSpaceOnUse">
           <stop stop-color="#000000"></stop>
           <stop offset="1" stop-color="#2ECC71"></stop>
         </linearGradient>
@@ -83,16 +79,11 @@
       <!-- Flex container with logo as background (wider to center the text) -->
       <div class="flex items-center justify-center bg-cover bg-center mx-auto rounded-lg shadow-lg"
         style="width: 300px; height: 100px;">
-        <h1 class="text-6xl font-extrabold text-white">
-          DerivQuant Consultancy
-        </h1>
+        <h1 class="text-6xl font-extrabold text-white">DerivQuant Consultancy</h1>
       </div>
-      <p class="mt-6 text-3xl text-gray-300">
-        Remote Talent, Local Management
-      </p>
+      <p class="mt-6 text-3xl text-gray-300">Remote Talent, Local Management</p>
       <div class="mt-10">
-        <a href="#services"
-          class="inline-block bg-azure-500 px-8 py-3 border border-transparent text-base font-bold rounded-full text-white hover:bg-azure-400">
+        <a href="#services" class="inline-block bg-azure-500 px-8 py-3 border border-transparent text-base font-bold rounded-full text-white hover:bg-azure-400">
           Discover Our Services
         </a>
       </div>
@@ -106,20 +97,16 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-gray-900">Core Service Offering</h2>
         <p class="mt-4 text-lg text-gray-600">
-          DerivQuant Consultancy empowers businesses across the UK and beyond by seamlessly connecting them with
-          top-tier remote tech talent — including Software Developers, Python Engineers, Data Scientists, AI/ML
-          Specialists, and Quantitative Analysts. Enhancing your experience, our dedicated UK-based account manager
-          serves as your personal liaison, ensuring clear communication and a smooth, tailored collaboration between you
-          and our experts.
+          DerivQuant Consultancy empowers businesses across the UK and beyond by seamlessly connecting them with top-tier remote tech talent — including Software Developers, Python Engineers, Data Scientists, AI/ML Specialists, and Quantitative Analysts. Enhancing your experience, our dedicated UK-based account manager serves as your personal liaison, ensuring clear communication and a smooth, tailored collaboration between you and our experts.
         </p>
         <div class="mt-8 grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-8 items-center">
           <div>
             <h3 class="text-xl font-bold text-gray-900">Skilled Consultants</h3>
             <ul class="mt-4 space-y-2 text-gray-600">
               <li>Software Developers (Full-stack, Front-end, Back-end)</li>
-              <li>Python & Quantitative Engineers</li>
+              <li>Python &amp; Quantitative Engineers</li>
               <li>Data Scientists and Data Engineers</li>
-              <li>AI & Machine Learning Specialists</li>
+              <li>AI &amp; Machine Learning Specialists</li>
             </ul>
           </div>
           <!-- Divider Column: visible on medium screens and up -->
@@ -133,62 +120,57 @@
             </p>
           </div>
         </div>
-
+      </div>
     </section>
 
     <!-- How It Works -->
     <section id="how-it-works" class="relative isolate overflow-hidden bg-slate-900 py-32">
       <!-- Green Gradient Background (same as hero) -->
       <svg viewBox="0 0 1108 632" aria-hidden="true"
-        class="absolute top-0 left-[calc(50%-4rem)] -z-10 w-[69.25rem] max-w-none transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
+           class="absolute top-0 left-[calc(50%-4rem)] -z-10 w-[69.25rem] max-w-none transform-gpu blur-3xl 
+                  sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
         <defs>
           <linearGradient id="green-black-gradient-how" x1="1220.59" x2="-85.053" y1="432.766" y2="638.714"
-            gradientUnits="userSpaceOnUse">
+                          gradientUnits="userSpaceOnUse">
             <stop stop-color="#000000"></stop>
             <stop offset="1" stop-color="#2ECC71"></stop>
           </linearGradient>
         </defs>
         <path fill="url(#green-black-gradient-how)" fill-opacity=".2"
-          d="M235.233 402.609 57.541 321.573.83 631.05l234.404-228.441 320.018 145.945c-65.036-115.261-134.286-322.756 109.01-230.655C968.382 433.026 1031 651.247 1092.23 459.36c48.98-153.51-34.51-321.107-82.37-385.717L810.952 324.222 648.261.088 235.233 402.609Z">
+              d="M235.233 402.609 57.541 321.573.83 631.05l234.404-228.441 320.018 145.945c-65.036-115.261-134.286-322.756 109.01-230.655
+                 C968.382 433.026 1031 651.247 1092.23 459.36c48.98-153.51-34.51-321.107-82.37-385.717L810.952 324.222 
+                 648.261.088 235.233 402.609Z">
         </path>
       </svg>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-white">How It Works</h2>
         <ol class="mt-8 space-y-4 text-gray-600">
           <li>
-            <span class="font-bold text-white">Identify Requirements:</span> Your dedicated UK-based manager clearly
-            understands your requirements, timelines, and budgets.
+            <span class="font-bold text-white">Identify Requirements:</span> Your dedicated UK-based manager clearly understands your requirements, timelines, and budgets.
           </li>
           <li>
-            <span class="font-bold text-white">Source & Screen Talent:</span> Through strategic Indian partnerships, we
-            rapidly identify highly skilled candidates who match your technical and cultural needs.
+            <span class="font-bold text-white">Source &amp; Screen Talent:</span> Through strategic Indian partnerships, we rapidly identify highly skilled candidates who match your technical and cultural needs.
           </li>
           <li>
-            <span class="font-bold text-white">Seamless Onboarding & Delivery:</span> Our UK manager coordinates with
-            remote consultants, ensuring smooth integration with your existing teams.
+            <span class="font-bold text-white">Seamless Onboarding &amp; Delivery:</span> Our UK manager coordinates with remote consultants, ensuring smooth integration with your existing teams.
           </li>
         </ol>
       </div>
       <br>
-
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-white">Competitive Advantages</h2>
         <ul class="mt-8 space-y-4 text-gray-600">
           <li>
-            <span class="font-bold text-white">Cost Efficiency:</span> Access high-quality talent at competitive
-            rates.
+            <span class="font-bold text-white">Cost Efficiency:</span> Access high-quality talent at competitive rates.
           </li>
           <li>
-            <span class="font-bold text-white">Quality & Reliability:</span> UK-based account management guarantees
-            effective oversight.
+            <span class="font-bold text-white">Quality &amp; Reliability:</span> UK-based account management guarantees effective oversight.
           </li>
           <li>
-            <span class="font-bold text-white">Scalability:</span> Rapidly expand or reduce your remote workforce
-            based on project demands.
+            <span class="font-bold text-white">Scalability:</span> Rapidly expand or reduce your remote workforce based on project demands.
           </li>
           <li>
-            <span class="font-bold text-white">Flexibility:</span> Engage consultants on project-based, daily-rate,
-            or long-term arrangements.
+            <span class="font-bold text-white">Flexibility:</span> Engage consultants on project-based, daily-rate, or long-term arrangements.
           </li>
         </ul>
       </div>
@@ -206,25 +188,25 @@
             <div>
               <label for="name" class="sr-only">Name</label>
               <input id="name" name="name" type="text" required
-                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
-                placeholder="Name" />
+                     class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
+                     placeholder="Name" />
             </div>
             <div>
               <label for="email" class="sr-only">Email address</label>
               <input id="email" name="email" type="email" required
-                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
-                placeholder="Email address" />
+                     class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
+                     placeholder="Email address" />
             </div>
             <div>
               <label for="message" class="sr-only">Message</label>
               <textarea id="message" name="message" rows="4" required
-                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
-                placeholder="Your message"></textarea>
+                        class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-azure-500 focus:border-azure-500 focus:z-10 sm:text-sm"
+                        placeholder="Your message"></textarea>
             </div>
           </div>
           <div>
             <button type="submit"
-              class="flex justify-center mx-auto py-2 px-20 border text-gray-600 rounded-full shadow-sm font-bold text-base font-medium hover:bg-azure-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-azure-500">
+                    class="flex justify-center mx-auto py-2 px-20 border text-gray-600 rounded-full shadow-sm font-bold text-base font-medium hover:bg-azure-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-azure-500">
               Send Message
             </button>
           </div>
@@ -242,8 +224,6 @@
     <script>
       document.getElementById('contactForm').addEventListener('submit', function (event) {
         event.preventDefault(); // Prevent the default form submission
-
-        // Send the email using EmailJS
         emailjs.sendForm('service_nefo78b', 'template_c7gtie8', this)
           .then(function () {
             alert('Message sent successfully!');
@@ -262,7 +242,6 @@
       <!-- Top Section: Logo & Navigation -->
       <div class="py-16">
         <a aria-label="Home" href="/">
-          <!-- Replace with your logo if needed -->
           <img src="logo.webp" alt="DerivQuant Logo" class="mx-auto h-28 w-auto" />
         </a>
         <br>
@@ -289,7 +268,7 @@
       <div class="flex flex-col items-center py-10 sm:flex-row-reverse sm:justify-between">
         <p class="text-sm text-slate-50 sm:mt-0">
           <a class="ml-1 font-semibold" href="/privacy-policy/">Privacy Policy /</a>
-          <a class="ml-1 font-semibold" href="/terms-and-conditions/">Terms and Conditions</a>
+          <a class="ml-1 font-semibold" href="/terms-and-conditions.html">Terms and Conditions</a>
         </p>
         <p class="mt-6 text-sm text-slate-50 sm:mt-0">
           © 2025 DerivQuant Consultancy. All rights reserved.
@@ -297,36 +276,29 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("5ps8xqbzDBKeROkug");
-    })();
-  </script>
+
   <!-- Cookie Consent Banner -->
-<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex flex-col sm:flex-row items-center justify-between z-50">
-  <p class="mb-2 sm:mb-0 text-center sm:text-left">
-    This website uses essential cookies to ensure its proper operation and to help us deliver the best experience possible. By using our services, you agree to our use of cookies.
-    <a href="/privacy-policy/" class="underline hover:text-gray-300 ml-1">Learn more</a>
-  </p>
-  <button id="cookie-dismiss" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
-    Dismiss
-  </button>
-</div>
+  <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex flex-col sm:flex-row items-center justify-between z-50">
+    <p class="mb-2 sm:mb-0 text-center sm:text-left">
+      This website uses essential cookies to ensure its proper operation and to help us deliver the best experience possible. By using our services, you agree to our use of cookies.
+      <a href="/privacy-policy/" class="underline hover:text-gray-300 ml-1">Learn more</a>
+    </p>
+    <button id="cookie-dismiss" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
+      Dismiss
+    </button>
+  </div>
 
-<script>
-  // Check if the user has already dismissed the cookie banner
-  if (localStorage.getItem('cookieConsent') === 'dismissed') {
-    document.getElementById('cookie-banner').style.display = 'none';
-  }
-
-  // When the user clicks the dismiss button, hide the banner and save the consent
-  document.getElementById('cookie-dismiss').addEventListener('click', function () {
-    document.getElementById('cookie-banner').style.display = 'none';
-    localStorage.setItem('cookieConsent', 'dismissed');
-  });
-</script>
-
+  <script>
+    // Check if the user has already dismissed the cookie banner
+    if (localStorage.getItem('cookieConsent') === 'dismissed') {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+    // When the user clicks the dismiss button, hide the banner and save the consent
+    document.getElementById('cookie-dismiss').addEventListener('click', function () {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookieConsent', 'dismissed');
+    });
+  </script>
 </body>
 
 </html>
