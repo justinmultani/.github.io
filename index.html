@@ -303,6 +303,31 @@
       emailjs.init("5ps8xqbzDBKeROkug");
     })();
   </script>
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-banner"
+    class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex flex-col sm:flex-row items-center justify-between">
+    <p class="mb-2 sm:mb-0 text-center sm:text-left">
+      This website uses essential cookies to ensure its proper operation and to help us deliver the best experience
+      possible. By using our services, you agree to our use of cookies.
+      <a href="/cookie-policy" class="underline hover:text-gray-300 ml-1">Learn more</a>
+    </p>
+    <button id="cookie-dismiss" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
+      Dismiss
+    </button>
+  </div>
+  <script>
+    // Check if the user has already dismissed the cookie banner
+    if (localStorage.getItem('cookieConsent') === 'dismissed') {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+    // When the user clicks the dismiss button, hide the banner and save the consent
+    document.getElementById('cookie-dismiss').addEventListener('click', function () {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookieConsent', 'dismissed');
+    });
+  </script>
+
 </body>
 
 </html>
