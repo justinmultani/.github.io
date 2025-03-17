@@ -12,20 +12,19 @@
   <style>
     /* Watermark that scrolls with the page */
     body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('logo.webp') center center / 30% auto no-repeat;
-  opacity: 0.04;
-  pointer-events: none;
-  z-index: -1;
-}
-
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('logo.webp') center center / 30% auto no-repeat;
+      opacity: 0.04;
+      pointer-events: none;
+      z-index: -1;
+    }
   </style>
-  
+
 </head>
 
 <body class="flex flex-col min-h-full">
@@ -42,7 +41,7 @@
           <a href="#" class="text-base font-medium text-gray-700 hover:text-gray-900">Home</a>
           <a href="#services" class="text-base font-medium text-gray-700 hover:text-gray-900">Services</a>
           <a href="#how-it-works" class="text-base font-medium text-gray-700 hover:text-gray-900">How It Works</a>
-          <a href="#contact"
+          <a href="#contactForm"
             class="flex justify-center mx-auto py-2 px-8 border border-transparent text-white bg-[#013220] rounded-full shadow-sm font-bold text-base font-medium hover:bg-[#1B5E20] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1B5E20]">
             Contact Us
           </a>
@@ -197,7 +196,7 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="py-16 ">
+    <form id="contactForm" class="py-16 ">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-gray-900">Contact Us</h2>
         <p class="mt-4 text-lg text-gray-600">
@@ -233,7 +232,29 @@
           </div>
         </form>
       </div>
-    </section>
+    </form>
+    <!-- EmailJS scripts and initialization -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init("YOUR_USER_ID"); // Replace with your actual EmailJS User ID
+    </script>
+
+    <!-- Set up form submission handling -->
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Send the email using EmailJS
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+          .then(function () {
+            alert('Message sent successfully!');
+            document.getElementById('contactForm').reset();
+          }, function (error) {
+            console.error('FAILED...', error);
+            alert('Failed to send message. Please try again.');
+          });
+      });
+    </script>
   </main>
 
   <!-- Footer -->
@@ -256,7 +277,7 @@
           <div class="-my-1 flex justify-center gap-x-6">
             <a class="text-sm font-semibold leading-6 text-white" href="#services">Services</a>
             <a class="text-sm font-semibold leading-6 text-white" href="#how-it-works">How It Works</a>
-            <a class="text-sm font-semibold leading-6 text-white" href="#contact">Contact</a>
+            <a class="text-sm font-semibold leading-6 text-white" href="#contactForm">Contact</a>
           </div>
         </nav>
       </div>
@@ -277,7 +298,12 @@
       </div>
     </div>
   </footer>
-
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("5ps8xqbzDBKeROkug");
+    })();
+  </script>
 </body>
 
 </html>
