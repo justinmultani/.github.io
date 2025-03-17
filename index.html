@@ -194,15 +194,14 @@
       </div>
     </section>
 
-
     <!-- Contact Section -->
-    <form id="contactForm" class="py-16 ">
+    <section id="contact" class="py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-gray-900">Contact Us</h2>
         <p class="mt-4 text-lg text-gray-600">
           Get in touch with us to learn more about how we can help your business succeed.
         </p>
-        <form class="mt-8 space-y-6" action="#" method="POST">
+        <form id="contactForm" class="mt-8 space-y-6" action="#" method="POST">
           <div class="rounded-md shadow-sm -space-y-px">
             <div>
               <label for="name" class="sr-only">Name</label>
@@ -228,11 +227,11 @@
               class="flex justify-center mx-auto py-2 px-20 border text-gray-600 rounded-full shadow-sm font-bold text-base font-medium hover:bg-azure-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-azure-500">
               Send Message
             </button>
-
           </div>
         </form>
       </div>
-    </form>
+    </section>
+
     <!-- EmailJS scripts and initialization -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -245,7 +244,7 @@
         event.preventDefault(); // Prevent the default form submission
 
         // Send the email using EmailJS
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        emailjs.sendForm('service_nefo78b', 'template_c7gtie8', this)
           .then(function () {
             alert('Message sent successfully!');
             document.getElementById('contactForm').reset();
