@@ -221,19 +221,25 @@
     </script>
 
     <!-- Set up form submission handling -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
-      document.getElementById('contactForm').addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent the default form submission
-        emailjs.sendForm('service_nefo78b', 'template_c7gtie8', this)
-          .then(function () {
+      emailjs.init("5ps8xqbzDBKeROkug"); // Replace with your actual EmailJS User ID
+      const form = document.getElementById('contactForm');
+      form.addEventListener('submit', event => {
+        event.preventDefault(); // Prevent default form submission
+    
+        emailjs.sendForm('service_nefo78b', 'template_c7gtie8', form)
+          .then(() => {
             alert('Message sent successfully!');
-            document.getElementById('contactForm').reset();
-          }, function (error) {
+            form.reset();
+          })
+          .catch(error => {
             console.error('FAILED...', error);
             alert('Failed to send message. Please try again.');
           });
       });
     </script>
+    
   </main>
 
   <!-- Footer -->
